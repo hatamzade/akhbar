@@ -1,0 +1,44 @@
+body{
+    direction: rtl;
+}
+p{
+    font-family: saeed_font;
+}
+
+H1,H2,H3,H4,H5,H6{
+    font-family:BTITR ;
+    color:darkblue;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+li{
+    display: inline;
+    background-color:burlywood;
+    padding: 10px;  
+}
+
+ul a{
+    text-decoration-line: none;
+}
+
+@font-face{
+    font-family: saeed_font;
+    src: url('../fonts/B\ Nazanin_rasekhoon.net.ttf');
+    font-family: BTITR;
+    src: url('../fonts/B\ Titr\ Bold_rasekhoon.net.ttf');
+}
+
+.green_text{
+    color: green;
+}
+
+.blue_font_text{
+ color:cadetblue   ;
+ font-family:saeed_font;
+}
+
+
+#purple_text{
+    color: purple;
+}
